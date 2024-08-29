@@ -26,11 +26,14 @@ const Home = () => {
 	}
 		
 	return (
-		<div className="traffic"> 
+		<>
+		<div className="traffic">
 			<button className={redLight ? "redLight on" : "redLight"} onClick={() => turnRed()}></button>
 			<button className={yellowLight ? "yellowLight on" : "yellowLight"} onClick={() => turnYellow()}></button>
 			<button className={greenLight ? "greenLight on" : "greenLight"} onClick={() => turnGreen()}></button>
 		</div>
+		
+		</>
 	);
 };
 

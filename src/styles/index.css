@@ -1,12 +1,49 @@
 
-/* 
+.traffic {
+    background: rgb(26, 25, 25);
+    border-radius: 8%;
+    border: 4px solid white;
+    width: 200px;
+    height: 500px;
+    position: absolute;
+    margin-left: 20rem;
+    margin-top: 5rem;
+}
 
-    You can write your own styles here...
-    
-    
-    ...Or you can use the import command to include 
-    other sylesheets into your bunde as well, e.j:
-    
-    import 'relative/path/to/stylesheet.scss';
+.redLight {
+    background: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-block: 30px;
+    transition: .3s;
 
-*/
+}
+
+.yellowLight {
+    background: yellow;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-block: 30px;
+    transition: .3s;
+
+}
+
+.greenLight {
+    background: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    margin: 50px;
+    margin-block: 30px;
+    transition: .3s;
+
+}
+
+.on {
+    transition: .3s;
+    box-shadow: 0 5px 50px white ;
+}
